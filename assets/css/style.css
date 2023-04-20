@@ -1,0 +1,274 @@
+/* Custom CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1800px;
+}
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 12px;
+}
+
+h5 {
+text-transform: capitalize;
+font-size: 20px;
+font-weight: 600;
+}
+
+section {
+    padding: 40px 0;
+}
+#header {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #e60b0b;
+    font-size: 18px;
+    background-color: #01f181;
+    padding: 10px 23px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: #4af806;
+    color: #5405af;
+}
+/* Header CSS */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+    font-weight: 900;
+}
+
+/* Navigation CSS */
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+.menu ul li:hover {
+    background-color: #01f181;
+    border-radius: 5px;
+    color: #fff;
+}
+.menu ul li:last-child {
+    margin: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 12px;
+    display: inline-block;
+}
+/* Hero Part CSS */
+.hero {
+    margin-top: 25px;
+    min-height: 500px;
+}
+.hero-img {
+    border: 2px solid #739280;
+    border-radius: 5px;
+    padding: 3px;
+    height: 500px;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main part CSS */
+
+/* About CSS */
+#about {
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text {
+    margin-top: 18px;
+}
+.about-text h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px
+}
+.about-text p {
+    text-align: center;
+    margin: 18px 0;
+}
+.about-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.about-item {
+    width: 32%;
+    text-align: center;
+    border: 1px solid #EEEEEE;
+    padding: 30px;
+}
+.about-item h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+.about-item img {
+    width: 15%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+/* Services CSS */
+#services {
+    background-color:#f2f2f2;
+}
+
+.services {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+.services h2 {
+    padding: 30px 0;
+  }
+  
+.services-item {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.services-item h4 {
+   text-align: center;
+   padding-bottom: 30px;
+   background-color: #04d880;
+}
+.services-item img {
+    width: 100%;
+}
+.services-items {
+    display: flex;
+    justify-content: space-between;
+  }
+.services-item p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+/* Gallery CSS */
+#gallery {
+    width: 80%;
+    margin: 0 auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-img {
+	width: 23%;
+	margin-bottom: 20px;
+	border: 1px solid #808080;
+	border-radius: 5px;
+	padding: 2px;
+}
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+/* Contact CSS */
+#contact {
+    background-color: #f2f2f2;
+    margin-bottom: 20;
+}
+.contact {
+    width: 80%;
+    margin: 15px auto;
+}
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form {
+    width: 60%;
+}
+.contact-info {
+    width: 35%;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 9px;
+    display: flex;
+}
+.img img {
+    width: 90%;
+    padding: 7px;
+    background-color: #01f181;
+    border-radius: 50%;
+    display: inline-block;
+}
+.contact-form input{
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+}
+.contact-form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#footer {
+    background-color: #01f181;
+}
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    color: #e60b0b;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
